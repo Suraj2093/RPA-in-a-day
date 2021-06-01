@@ -6,7 +6,7 @@
 
    ![](images/v2-1.png)
  
-    > You will see VM details in the **Lab Environment** tab
+   > You will see VM details in the **Lab Environment** tab
  
 1. You can also seperate the lab guide and the virtual machinbe provided for the lab to view in seperate full window by clicking on the *Split Window* button at the bottom right corner of the screen.
 
@@ -21,16 +21,16 @@
 
    ![](images/vm-start.png)
 
-1. To Stop the VM, on the Lab Resources tab click on the **Stop** icon as shown below.
+1. To Stop the VM, on the Virtual Machines tab click on the **Deallocate** icon as shown below.
 
    ![](images/vm-stop.png)
 
-1. To Restsrt the VM, on the Lab Resources tab click on the **Restart** icon as shown below.
+1. To Restart the VM, on the Virtual Machines tab click on the **Restart** icon as shown below.
 
    ![](images/vm-restart.png)
 
 ## Environemnt Setup and Overview
-Your ODL user is provided with the *Microsoft Office365 E3* license and *Power Automate per user with attended RPA plan* license.
+Your **odl_user** is provided with the *Microsoft Office365 E3* license and *Power Automate per user with attended RPA plan* license.
 
 ### Create a trial environment with database
 
@@ -46,7 +46,7 @@ Your ODL user is provided with the *Microsoft Office365 E3* license and *Power A
 
 1. Select *Environments* in the tab bar (Note: you may need to expand the Left Navigation bar options to see it). Then select your automatically created environment. Select default.
 
-   ![](images/powerapps-env.png)
+   ![](images/pwerapps-env.png)
 
 1. Select **Add database** as shown below.
 
@@ -56,11 +56,12 @@ Your ODL user is provided with the *Microsoft Office365 E3* license and *Power A
    
    * Currency: USD
    * Language: English
+   
    Then click **Add**
 
    ![](images/database.png)
 
-    > ***Note*** : creating a database may take up to one minute. Your environment will be ready after the database is provisioned.
+   > ***Note*** : creating a database may take up to one minute. Your environment will be ready after the database is provisioned.
 
 ### Check installed required software on your Lab VM
 
@@ -82,7 +83,7 @@ Your ODL user is provided with the *Microsoft Office365 E3* license and *Power A
 
 1. It is recommended to name your gateway as **Your computer name gateway**. Create a **recovery key**, then click **Configure**.
    
-    > ***Note*** : the gateway region must match the region of the Power Automate environment that being used in this lab. (The environment that you created earlier, or the one your instructor asks you to use for this class. Check with your instructor if you are not sure which region the gateway should match to. By default, the gateway installer will automatically configure to use the same region as the default environment of the tenant you are using. If you must change the Gateway to a different region, click the fine text of “Change Region” as shown in the last line in the setup page below. Note, if you already finished install the gateway, but mistakenly installed to the wrong region, to switch to a different region, you have to uninstall the gateway from “Add and remove program” and reinstall the gateway.
+   > ***Note*** : the gateway region must match the region of the Power Automate environment that being used in this lab. (The environment that you created earlier, or the one your instructor asks you to use for this class. Check with your instructor if you are not sure which region the gateway should match to. By default, the gateway installer will automatically configure to use the same region as the default environment of the tenant you are using. If you must change the Gateway to a different region, click the fine text of “Change Region” as shown in the last line in the setup page below. Note, if you already finished install the gateway, but mistakenly installed to the wrong region, to switch to a different region, you have to uninstall the gateway from “Add and remove program” and reinstall the gateway.
 
    ![](images/gateway-config.png)
 
@@ -115,5 +116,5 @@ Your ODL user is provided with the *Microsoft Office365 E3* license and *Power A
 
    ![](images/invoice-4.png)
    
-Once this is completed you can proceed with the lab using the lab guide. The rest of the exercises are available in ***C:\RPAIAD\RPAinADay-Student\lab manuals in pdf***, you can start from **Lab 2 How to generate insights to optimize and automate your process using process advisor**.
+Once this is completed you can proceed with the lab using the lab guide. The rest of the exercises are available in the lab VM at ***C:\RPAIAD\RPAinADay-Student\lab manuals in pdf***, you can start from **Lab 2 How to generate insights to optimize and automate your process using process advisor**.
 
